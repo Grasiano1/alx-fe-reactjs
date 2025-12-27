@@ -1,16 +1,14 @@
 import axios from 'axios';
 
+// Task 2 requires using the Search API endpoint
+const GITHUB_SEARCH_URL = 'https://api.github.com/search/users?q=';
+
 export const fetchUserData = async (username, location, minRepos) => {
-  // Start with the base search URL
-  let query = '';
+    // Construct the query parameters correctly for the GitHub API
+    let query = `user:${username}`;
+    if (location) query += `+location:${location}`;
+    if (minRepos) query += `+repos:>=${minRepos}`;
 
-  // Build the query string based on provided inputs
-  if (username) query += `${username}`;
-  if (location) query += `+location:${location}`;
-  if (minRepos) query += `+repos:>=${minRepos}`;
-
-  // If query is empty, we shouldn't make the call or GitHub will return an error
-  const response = await axios.get(`https://api.github.com/search/users?q=${query}`);
-  
-  return response.data; // This returns an object containing an 'items' array
+    const response = await axios.get(`${GITHUB_SEARCH_URL}${query}`);
+    return response.data; // Note: Search API returns { items: [], ... }
 };
