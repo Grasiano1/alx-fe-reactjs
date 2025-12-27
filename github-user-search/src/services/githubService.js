@@ -1,7 +1,11 @@
 // src/services/githubService.js
 import axios from 'axios';
 
-// We will add the API logic here in the next task
 export const fetchUserData = async (username) => {
-    // Placeholder function
+  try {
+    const response = await axios.get(`https://api.github.com/users/${username}`);
+    return response.data;
+  } catch (error) {
+    throw error; // Let the component handle the error message
+  }
 };
