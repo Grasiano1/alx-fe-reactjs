@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Spaghetti Carbonara",
+        "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+        "image": "https://www.simplyrecipes.com/thmb/t-7aHXGPfnNYZggxIrNQQwyhdHs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Pasta-Carbonara-LEAD-1-c477cc25c7294cd9a3fc51ece176481f.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Indomine",
+        "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+        "image": "https://tse3.mm.bing.net/th/id/OIP.ehB6OFE2FOgRqHEivEepKwHaFm?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+        "id": 3,
+        "title": "Jollof rice",
+        "summary": "it is a vibrant symbol of West African culture, loved for its rich flavors, vivid colors, and the communal spirit it evokes during celebrations and gatherings.",
+        "image": "https://www.ghanaianrecipes.com/wp-content/uploads/2024/10/Gemini_Generated_Image_aqi6n5aqi6n5aqi6-1-1024x1024.jpeg"
+    },
+    {
+        "id": 4,
+        "title": "Waakye",
+        "summary": "The dish is typically prepared by cooking rice and beans with dried millet leaves, which give Waakye its characteristic reddish-brown hue",
+        "image": "https://eatwellabi.com/wp-content/uploads/2021/09/Waakye-13.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Fufu",
+        "summary": "This delicious and hearty dish is a staple in many Ghanaian homes, loved for its rich flavors and comforting texture.",
+        "image": "https://i.pinimg.com/736x/be/9e/81/be9e81bad2f68f3f8c3b112097714469.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Banku",
+        "summary": "This delicious combination of grilled or fried tilapia served alongside banku—a fermented corn and cassava dough dish—represents the marriage of Ghana’s coastal fishing traditions with its agricultural roots.",
+        "image": "https://i.pinimg.com/originals/49/7a/16/497a168ee4f4fb298855d8bfc4cfa5ae.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Fries and Chicken",
+        "summary": "Are you tired of fish and chips or chicken and fries? Why don’t you try this authentic Ghanaian fried chicken and yam fries (aka. yammies).",
+        "image": "https://th.bing.com/th/id/R.7c0e14f5eb65c1d67ac1acc3865c337e?rik=xUDQYZys1TH3Qw&pid=ImgRaw&r=0"
+    },
+    {
+        "id": 8,
+        "title": "Plain rice and stew",
+        "summary": "Rice is not just a side dish; it is a global staple that has nourished millions for centuries. Its versatility makes it an excellent accompaniment to numerous dishes, especially stews. ",
+        "image": "https://www.meandmychild.com.au/wp-content/uploads/2014/06/recipes-toddlers-1-3-year-old-beef-with-rice-recipe.webp"
+    },
+    {
+        "id": 9,
+        "title": "Tuozaafi",
+        "summary": "Tuo Zaafi is made by cooking the corn dough and adding a small amount of cassava. It is similar to banku but is much softer and less sticky.",
+        "image": "https://i.pinimg.com/originals/07/13/43/0713438ad2934fac6e783bd71a27bccb.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Kokonte and groundnut soup",
+        "summary": "Kokonte is a popular food in Ghana and other parts of West Africa. Kokonte is usually made out of dried cassava. Kokonte is very nutritive and as it contains adequate amounts of protein and very little fat. Kokonte with soups such as okra, palm-nut or groundnut soups go well together. Kokonte is prepared in a similar way as fufu but is a lighter food as compared to fufu.",
+        "image": "https://images.bolt.eu/store/2024/2024-06-14/72b4872a-e441-437a-b017-d9e67dea1134.jpeg"
+    },
+    {
+        "id": 11,
+        "title": "Ampesi",
+        "summary": "Freshly boiled yam with palm oil, boiled eggs and pear for your healthy life style",
+        "image": "https://i.pinimg.com/736x/ff/45/63/ff456362bcc913b76fda224dfaf72275.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Kenkey",
+        "summary": "Kenkey is a typical Ghanaian dish made from fermented white corn, which is widely consumed throughout the country by Ga people from southern Ghana.",
+        "image": "https://tse4.mm.bing.net/th/id/OIP.HAQyDeVRX-rRbzw76r5TFwHaH7?pid=ImgDet&w=184&h=197&c=7&dpr=1.3&o=7&rm=3"
+    }    
+]
