@@ -3,37 +3,50 @@
         "id": 1,
         "title": "Spaghetti Carbonara",
         "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-        "image": "https://www.simplyrecipes.com/thmb/t-7aHXGPfnNYZggxIrNQQwyhdHs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Pasta-Carbonara-LEAD-1-c477cc25c7294cd9a3fc51ece176481f.jpg"
+        "image": "https://www.simplyrecipes.com/thmb/t-7aHXGPfnNYZggxIrNQQwyhdHs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Pasta-Carbonara-LEAD-1-c477cc25c7294cd9a3fc51ece176481f.jpg",
+        "ingredients": ["Pasta", "Tomato", "Garlic"],
+        "instructions": ["Boil water", "Cook pasta", "Add sauce"]
     },
     {
         "id": 2,
         "title": "Indomine",
         "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-        "image": "https://tse3.mm.bing.net/th/id/OIP.ehB6OFE2FOgRqHEivEepKwHaFm?rs=1&pid=ImgDetMain&o=7&rm=3"
+        "image": "https://tse3.mm.bing.net/th/id/OIP.ehB6OFE2FOgRqHEivEepKwHaFm?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "ingredients": ["Garlic","Shallot","Green Onion","Noodles","Baked Beans","Dark Soy sauce"],
+        "instructions": ["Thinly slice the green onion whites and mince the garlic","Combine the light soy sauce, dark soy sauce, and sriracha in a bowl and set aside","Cook the noodles as per the package instructions or until tender. Drain and set aside","Heat oil on low heat and saute the green onion whites and garlic until fragrant",
+    "Pour the prepared sauce into the pan and simmer for a couple of seconds.","Add the cooked noodles and toss them to coat evenly with the sauce.","Toss in the the green onion and give it a quick stir to mix everything together.","Transfer the noodles to a bowl and serve immediately"]
     },
     {
         "id": 3,
         "title": "Jollof rice",
         "summary": "it is a vibrant symbol of West African culture, loved for its rich flavors, vivid colors, and the communal spirit it evokes during celebrations and gatherings.",
-        "image": "https://www.ghanaianrecipes.com/wp-content/uploads/2024/10/Gemini_Generated_Image_aqi6n5aqi6n5aqi6-1-1024x1024.jpeg"
+        "image": "https://www.ghanaianrecipes.com/wp-content/uploads/2024/10/Gemini_Generated_Image_aqi6n5aqi6n5aqi6-1-1024x1024.jpeg",
+        "ingredients": ["4 cups of long-grain rice","1/4 cup of vegetable oil","1 large onion","4-5 ripe tomatoes","1/4 cup of tomato paste","Protein of choice (Grilled chicken,Beef or Fish for serving)"],
+        "instructions": ["Prepare the Rice","Make the tomato Base","Cook the Rice","Serve"]
     },
     {
         "id": 4,
         "title": "Waakye",
         "summary": "The dish is typically prepared by cooking rice and beans with dried millet leaves, which give Waakye its characteristic reddish-brown hue",
-        "image": "https://eatwellabi.com/wp-content/uploads/2021/09/Waakye-13.jpg"
+        "image": "https://eatwellabi.com/wp-content/uploads/2021/09/Waakye-13.jpg",
+        "ingredients": ["Rice","Beans","Dried Sorghum leaves","Water","Baking Soda","Stew","Spicy Sauce","Salad"],
+        "instructions": ["Soak the beans and rinse the rice","Combine the soaked beans, rinsed rice, dried leaves and water in a large pot","Bring to a boil, then reduce heat and cover to simmer for 30-40 minutes","Check for doneness and add more water if necessary","Serve with accompaniments like fried plantains, eggs, and a spicy sauce"]
     },
     {
         "id": 5,
         "title": "Fufu",
         "summary": "This delicious and hearty dish is a staple in many Ghanaian homes, loved for its rich flavors and comforting texture.",
-        "image": "https://i.pinimg.com/736x/be/9e/81/be9e81bad2f68f3f8c3b112097714469.jpg"
+        "image": "https://i.pinimg.com/736x/be/9e/81/be9e81bad2f68f3f8c3b112097714469.jpg",
+        "ingredients": ["Plantains","Cassava","Water","Salt","Corn"],
+        "instructions": ["Plantains: Peel and slice them","Cassava: Peel and chunk it.","Water: Add enough water to fully submerge the plantains and cassava.","Salt: Sprinkle it into the pot.","Boil: Bring the water to a boil, then reduce to medium and simmer for about 25-30 minutes until soft.","Drain: Thoroughly drain the cooked plantains and cassava.","Pound: Transfer to a mortar and pestle or stand mixer, pound until smooth.","Add Water: Gradually add warm water, a little at a time, until a soft, elastic, and slightly sticky consistency is reached.","Butter: If using, add unsalted butter and continue mixing until silky and smooth.","Shape: Scoop out portions and shape them into smooth, round balls.","Serve: Serve the fufu warm, as desired.","Corn: Boil water and corn, then add cornmeal and stir until thickened.","Water: Add remaining water to the cornmeal mixture.","Cooking Time: Stir constantly until the mixture thickens, about five to ten minutes."]
     },
     {
         "id": 6,
         "title": "Banku",
         "summary": "This delicious combination of grilled or fried tilapia served alongside banku—a fermented corn and cassava dough dish—represents the marriage of Ghana’s coastal fishing traditions with its agricultural roots.",
-        "image": "https://i.pinimg.com/originals/49/7a/16/497a168ee4f4fb298855d8bfc4cfa5ae.jpg"
+        "image": "https://i.pinimg.com/originals/49/7a/16/497a168ee4f4fb298855d8bfc4cfa5ae.jpg",
+        "ingredients": ["Corn dough","Cassava dough","Water","Salt"],
+        "instructions": ["Prepare the dough mixture","Set up for cooking","Cook the Mixture","Kneading and Adding water","Adjust for salt and Final Cook","Check for Doneness","Serving"]
     },
     {
         "id": 7,
@@ -45,13 +58,17 @@
         "id": 8,
         "title": "Plain rice and stew",
         "summary": "Rice is not just a side dish; it is a global staple that has nourished millions for centuries. Its versatility makes it an excellent accompaniment to numerous dishes, especially stews. ",
-        "image": "https://www.meandmychild.com.au/wp-content/uploads/2014/06/recipes-toddlers-1-3-year-old-beef-with-rice-recipe.webp"
+        "image": "https://www.meandmychild.com.au/wp-content/uploads/2014/06/recipes-toddlers-1-3-year-old-beef-with-rice-recipe.webp",
+        "ingredients": ["Chicken: Tender chicken pieces (preferably chicken thighs).","Rice: Long-grain white rice.","Vegetables: Onion, bell pepper, and garlic.","Tomato Sauce: Tomato paste or diced tomatoes.","Seasonings: Salt, pepper, nutmeg, and optional herbs like coriander."],
+        "instructions": ["Season the chicken with salt and pepper, then brown it in a hot skillet until cooked through.","In the same skillet, sauté chopped onion, bell pepper, and garlic until fragrant.","Add tomato paste and cook for a few minutes until it darkens in color.","Stir in the chicken and cook for about 45 minutes.","Add the rice and season with salt.","Pour in chicken broth and bring to a boil, then reduce heat and simmer for 10-12 minutes until the rice is cooked.","Serve immediately and enjoy your hearty stew!"]
     },
     {
         "id": 9,
         "title": "Tuozaafi",
         "summary": "Tuo Zaafi is made by cooking the corn dough and adding a small amount of cassava. It is similar to banku but is much softer and less sticky.",
-        "image": "https://i.pinimg.com/originals/07/13/43/0713438ad2934fac6e783bd71a27bccb.jpg"
+        "image": "https://i.pinimg.com/originals/07/13/43/0713438ad2934fac6e783bd71a27bccb.jpg",
+        "ingredients": ["Corn flour: This forms the base of Tuo Zaafi, providing a smooth and creamy texture.","Rice flour: Often combined with corn flour, rice flour enhances the flavor and gives a slightly firmer consistency.","Water: Used to cook the flour and achieve the desired consistency.","Salt: For seasoning.","Optional ingredients: Millet flour, sorghum flour, herbs, and spices can be added for added flavor and nutrition."],
+        "instructions": ["Combine equal parts of corn flour and rice flour in a large bowl.","Gradually add water to the flour mixture, stirring continuously to avoid lumps.","Bring about 4 cups of water to a rolling boil.","In the boiling water, gradually add the flour mixture while stirring continuously with a wooden spoon or spatula.","Cook the mixture until it thickens but remains pourable.","For a traditional Tuo Zaafi, you can also prepare Ayoyo soup by boiling water, adding chopped onions, powdered fish, powdered okro, and dawadawa, and then adding Ayoyo leaves and salt peter. Allow the soup to simmer for 3 minutes before serving with Tuo Zaafi."]
     },
     {
         "id": 10,
@@ -63,12 +80,17 @@
         "id": 11,
         "title": "Ampesi",
         "summary": "Freshly boiled yam with palm oil, boiled eggs and pear for your healthy life style",
-        "image": "https://i.pinimg.com/736x/ff/45/63/ff456362bcc913b76fda224dfaf72275.jpg"
+        "image": "https://i.pinimg.com/736x/ff/45/63/ff456362bcc913b76fda224dfaf72275.jpg",
+        "ingredients": ["Boiled yam","Sweet potato","Green plantain","Pumpkin chunks","Cabbage wedges","Spinach or cocoyam leaves","Red onion","Chopped garlic","Grated ginger","Diced tomatoes","Scotch bonnet pepper","Smoked mackerel","Dried shrimp","Smoked paprika","Ground crayfish (optional)","Sea salt","Black pepper"],
+        "instructions": ["Preheat a large pot with enough water to cover the tubers and bring it to a boil.","Add the yam, sweet potato, green plantain, and pumpkin chunks to the boiling water.","Add 1/2 teaspoon of sea salt and reduce the heat to medium.","Cook the tubers for about 10 minutes.","Add the cabbage wedges and continue boiling for another 10-15 minutes.","Add the spinach or cocoyam leaves during the last 3 minutes of cooking.","Once wilted, remove all the vegetables and tubers from the pot.",
+        "Heat extra virgin olive oil in a large skillet over medium heat.","Add chopped red onion, sauté for 2-3 minutes until softened.","Add minced garlic, grated ginger, diced tomatoes, and Scotch bonnet pepper.","Cook for 5 minutes, stirring occasionally until the tomatoes break down.","Stir in smoked mackerel, dried shrimp, smoked paprika, ground crayfish, remaining sea salt, and black pepper.","Cook for another 5 minutes, allowing the flavors to meld.","Remove the Scotch bonnet pepper before serving."]
     },
     {
         "id": 12,
         "title": "Kenkey",
         "summary": "Kenkey is a typical Ghanaian dish made from fermented white corn, which is widely consumed throughout the country by Ga people from southern Ghana.",
-        "image": "https://tse4.mm.bing.net/th/id/OIP.HAQyDeVRX-rRbzw76r5TFwHaH7?pid=ImgDet&w=184&h=197&c=7&dpr=1.3&o=7&rm=3"
+        "image": "https://tse4.mm.bing.net/th/id/OIP.HAQyDeVRX-rRbzw76r5TFwHaH7?pid=ImgDet&w=184&h=197&c=7&dpr=1.3&o=7&rm=3",
+        "ingredients": ["Cornmeal","Water","Corn husks","Salt","Stirring Spoon","Cooking pot","Boiling water","Aluminum foil","Hot pepper sauce","Black-eyed bean stew","Grilled fish"],
+        "instructions": ["Ferment the cornmeal","Cook the dough","Combine the dough","Wrap the dough","Boil the Kenkey","Serve"]
     }    
 ]
