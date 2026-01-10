@@ -28,29 +28,33 @@ const HomePage = () => {
 
 export default HomePage;
 
+import { Link } from 'react-router-dom';
+
 const RecipeCard = ({ recipe }) => {
-    return (
-        <div className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 transform hover:scale-105 hover:shadow-2xl cursor-pointer">
-            {/* Recipe Image */}
-            <img
-                src={recipe.image}
-                alt={recipe.title}
-                className="w-full h-48 object-cover"
-            />
-
-            {/* Recipe Content */}
-            <div className="p-4">
-                <h2 className="text-xl font-semibold mb-2 text-gray-800 line-clamp-1">
-                    {recipe.title}
-                </h2>
-                <p className="text-gray-600 text-sm line-clamp-3">
-                    {recipe.summary}
-                </p>
-
-                <button className="mt-4 w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600 transition-colors">
-                    View Recipe
-                </button>
-            </div>
+  return (
+    // Wrap the entire card in a Link so the whole card is clickable
+    <Link to={`/recipe/${recipe.id}`} className="block">
+      <div className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 transform hover:scale-105 hover:shadow-2xl cursor-pointer h-full">
+        <img 
+          src={recipe.image} 
+          alt={recipe.title} 
+          className="w-full h-48 object-cover"
+        />
+        
+        <div className="p-4">
+          <h2 className="text-xl font-semibold mb-2 text-gray-800 line-clamp-1">
+            {recipe.title}
+          </h2>
+          <p className="text-gray-600 text-sm line-clamp-3">
+            {recipe.summary}
+          </p>
+          
+          {/* Change this to a div or span since it's inside a Link */}
+          <div className="mt-4 w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600 transition-colors text-center font-medium">
+            View Recipe
+          </div>
         </div>
-    );
+      </div>
+    </Link>
+  );
 };
